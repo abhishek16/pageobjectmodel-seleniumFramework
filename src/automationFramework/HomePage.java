@@ -1,4 +1,4 @@
-package com.uptake.testcases;
+package automationFramework;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -9,7 +9,7 @@ public class HomePage {
 	
 	String baseUrl = "https://uptake.com/";
 	
-	public String getTitle(){
+		public String getTitle(){
 		
 		String actualTitle = driver.getTitle();
 		
@@ -19,7 +19,7 @@ public class HomePage {
 	WebDriver driver;
 
 	public HomePage(WebDriver driver) {
-		// TODO Auto-generated constructor stub
+	
 		this.driver=driver;
 	}
 	
@@ -65,7 +65,7 @@ public class HomePage {
 	}
 
 	
-/*** Open Jobs section page and search for QA Engineer position ***/
+/*** Open Jobs section page and search for QA Engineer position & click it***/
 	
 	public void clickOpenJobPositions() throws InterruptedException {
 		

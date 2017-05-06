@@ -8,6 +8,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+
+import automationFramework.HomePage;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -19,7 +22,7 @@ import org.testng.annotations.Test;
 
 @SuppressWarnings("unused")
 
-public class VerifyPages {
+public class VerifyPagesTest {
 	
 	public String baseUrl = "https://uptake.com/";
 	

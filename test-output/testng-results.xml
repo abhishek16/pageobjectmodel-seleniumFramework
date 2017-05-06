@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21524" started-at="2017-05-06T04:34:49Z" finished-at="2017-05-06T04:35:11Z">
+  <suite name="Default suite" duration-ms="22990" started-at="2017-05-06T23:14:23Z" finished-at="2017-05-06T23:14:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21524" started-at="2017-05-06T04:34:49Z" finished-at="2017-05-06T04:35:11Z">
-      <class name="com.uptake.testcases.VerifyPages">
-        <test-method status="PASS" signature="setBaseURL()[pri:0, instance:com.uptake.testcases.VerifyPages@6093dd95]" name="setBaseURL" is-config="true" duration-ms="6915" started-at="2017-05-05T23:34:49Z" finished-at="2017-05-05T23:34:56Z">
+    <test name="Default test" duration-ms="22990" started-at="2017-05-06T23:14:23Z" finished-at="2017-05-06T23:14:46Z">
+      <class name="com.uptake.testcases.VerifyPagesTest">
+        <test-method status="PASS" signature="setBaseURL()[pri:0, instance:com.uptake.testcases.VerifyPagesTest@6093dd95]" name="setBaseURL" is-config="true" duration-ms="7951" started-at="2017-05-06T18:14:23Z" finished-at="2017-05-06T18:14:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBaseURL -->
-        <test-method status="PASS" signature="verfiyHomePageTitle()[pri:0, instance:com.uptake.testcases.VerifyPages@6093dd95]" name="verfiyHomePageTitle" duration-ms="111" started-at="2017-05-05T23:34:56Z" finished-at="2017-05-05T23:34:56Z">
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:com.uptake.testcases.VerifyPagesTest@6093dd95]" name="verifyHomePageTitle" duration-ms="117" started-at="2017-05-06T18:14:31Z" finished-at="2017-05-06T18:14:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verfiyHomePageTitle -->
-        <test-method status="PASS" signature="navigatetoApproachTab()[pri:1, instance:com.uptake.testcases.VerifyPages@6093dd95]" name="navigatetoApproachTab" duration-ms="1059" started-at="2017-05-05T23:34:56Z" finished-at="2017-05-05T23:34:57Z">
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="navigatetoApproachTab()[pri:1, instance:com.uptake.testcases.VerifyPagesTest@6093dd95]" name="navigatetoApproachTab" duration-ms="1049" started-at="2017-05-06T18:14:31Z" finished-at="2017-05-06T18:14:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigatetoApproachTab -->
-        <test-method status="PASS" signature="gotoOpenPositionsDiv()[pri:2, instance:com.uptake.testcases.VerifyPages@6093dd95]" name="gotoOpenPositionsDiv" duration-ms="8" started-at="2017-05-05T23:34:57Z" finished-at="2017-05-05T23:34:57Z">
+        <test-method status="PASS" signature="gotoOpenPositionsDiv()[pri:2, instance:com.uptake.testcases.VerifyPagesTest@6093dd95]" name="gotoOpenPositionsDiv" duration-ms="8" started-at="2017-05-06T18:14:32Z" finished-at="2017-05-06T18:14:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gotoOpenPositionsDiv -->
-        <test-method status="PASS" signature="searchInJobListings()[pri:3, instance:com.uptake.testcases.VerifyPages@6093dd95]" name="searchInJobListings" duration-ms="12371" started-at="2017-05-05T23:34:57Z" finished-at="2017-05-05T23:35:10Z">
+        <test-method status="PASS" signature="searchInJobListings()[pri:3, instance:com.uptake.testcases.VerifyPagesTest@6093dd95]" name="searchInJobListings" duration-ms="12384" started-at="2017-05-06T18:14:32Z" finished-at="2017-05-06T18:14:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchInJobListings -->
-        <test-method status="PASS" signature="endSession()[pri:0, instance:com.uptake.testcases.VerifyPages@6093dd95]" name="endSession" is-config="true" duration-ms="1037" started-at="2017-05-05T23:35:10Z" finished-at="2017-05-05T23:35:11Z">
+        <test-method status="PASS" signature="endSession()[pri:0, instance:com.uptake.testcases.VerifyPagesTest@6093dd95]" name="endSession" is-config="true" duration-ms="1456" started-at="2017-05-06T18:14:44Z" finished-at="2017-05-06T18:14:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endSession -->
-      </class> <!-- com.uptake.testcases.VerifyPages -->
+      </class> <!-- com.uptake.testcases.VerifyPagesTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
