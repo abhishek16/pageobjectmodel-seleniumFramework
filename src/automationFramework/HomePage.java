@@ -71,10 +71,9 @@ public class HomePage {
 		
 		gotoOpenPositionsDiv();
 		
-		for (String winHandle : driver.getWindowHandles()) 
-		{
-	           driver.switchTo().window(winHandle);
-		}
+		ArrayList<String> windowHandles = new ArrayList<String> (driver.getWindowHandles());
+		
+		driver.switchTo().window(windowHandles.get(1));
 		
 		Thread.sleep(2000);
 			
